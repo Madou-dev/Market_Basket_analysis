@@ -10,7 +10,7 @@ from collections import Counter
 def load_data():
 
     df = pd.read_csv(                            # On charge le fichier CSV dans un DataFrame
-        "/Users/alphaamadoudiallo/Desktop/Market Basket Analysis/data/Market_Basket_Optimisation.csv",
+        "/Users/alphaamadoudiallo/Desktop/Market_Basket_Analysis/data/Market_Basket_Optimisation.csv",
         header=None                              # Le fichier n'a pas de ligne d'en-tete, donc pas de noms de colonnes
     )
 

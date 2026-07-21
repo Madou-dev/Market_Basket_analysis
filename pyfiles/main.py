@@ -22,7 +22,7 @@ import networkx as nx       #Cette bibliothèque permet de créer et manipuler d
 ##############################################
 # Importation du dataset
 ##############################################
-df = pd.read_csv('/Users/alphaamadoudiallo/Desktop/Market Basket Analysis/data/Market_Basket_Optimisation.csv', header=None)
+df = pd.read_csv('/Users/alphaamadoudiallo/Desktop/Market_Basket_Analysis/data/Market_Basket_Optimisation.csv', header=None)
 
 ##############################################
 # Affichage des données (exploration rapide du dataset)
