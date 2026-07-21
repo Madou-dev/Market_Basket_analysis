@@ -358,6 +358,68 @@ d'acheter également du ground beef.
 
     </div>
     """, unsafe_allow_html=True)
+    
+    st.markdown("""
+### 📚 Comprendre les indicateurs clés
+
+""")
+
+    col3, col4 = st.columns(2)
+
+    with col3:
+
+        st.markdown("""
+    <div class="custom-card">
+
+    <h3>📈 Confidence</h3>
+
+    La confidence mesure la probabilité qu'un client
+    achète un produit B lorsqu'il a déjà acheté
+    un produit A.
+
+    <b>Exemple :</b>
+
+    Spaghetti → Ground Beef
+
+    Confidence = 22,5 %
+
+    Cela signifie que parmi les clients ayant acheté
+    des spaghetti, 22,5 % ont également acheté
+    du ground beef.
+
+    Plus la confidence est élevée,
+    plus la règle est fiable.
+
+    </div>
+    """, unsafe_allow_html=True)
+
+    with col4:
+
+        st.markdown("""
+    <div class="custom-card">
+
+    <h3>🚀 Lift</h3>
+
+    Le lift mesure la force réelle de l'association
+    entre deux produits.
+
+    Il compare la fréquence observée de l'association
+    à celle que l'on obtiendrait par hasard.
+
+    <b>Interprétation :</b>
+
+    • Lift < 1 : association négative       • Lift = 1 : aucune relation
+
+    • Lift > 1 : association positive
+
+    <b>Exemple :</b> Lift = 2,29
+    
+    Les clients achètent ces deux produits
+    2,29 fois plus souvent que ce qui serait attendu
+    par hasard.
+
+    </div>
+    """, unsafe_allow_html=True)
 
 # ==========================================================
 #PAGE EDA
@@ -909,7 +971,7 @@ elif page == "Recommandations":
     ])
 
     # ==========================
-    # DONNÉES RECOMMANDATIONS
+    # DONNEES RECOMMANDATIONS
     # ==========================
 
     recommendations = {
