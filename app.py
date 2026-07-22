@@ -188,7 +188,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.sidebar.image(
-    "images/logo.png",
+    "images/logo.PNG",
     width=200
 )
 
