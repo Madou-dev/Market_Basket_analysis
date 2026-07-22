@@ -5,7 +5,4 @@ matplotlib
 seaborn
 networkx
 mlxtend
-matplotlib
 plotly
-re 
-Counter 
